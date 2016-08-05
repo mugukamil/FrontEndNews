@@ -18,10 +18,10 @@
         <div class="container">
             <header class="content__header">
                 <h1>Latest News</h1>
-                <p>The latest links in the frontend community. <a href="#0">Add</a></p>
-                <form action="" class="form">
-                    <label for="form__label" for="add-link">Add a Story</label>
-                    <input class="form__input" id="add-link">
+                <p>The latest links in the frontend community. <a href="#0" class="js-add">Add</a></p>
+                <form action="" class="form js-form">
+                    <label class="form__label" for="add-link">Add a Story</label>
+                    <input class="form__input" id="add-link" placeholder="Story Link">
                 </form>
             </header>
             <ol class="news">
@@ -103,6 +103,26 @@
             </ol>    
         </div> <!-- /.container -->
     </main>
+
+    <div class="modal">
+        <div class="modal__media">
+            <img src="" alt="">
+            <h3 class="modal__media__title">Den Denney</h3>
+        </div>
+        <div class="modal__content">
+            <h3>About Me</h3>
+            <p>I'm a seriously good copy and paster. Front-end dev for @codeschool, lover of all things web design/dev related and founder of @frontendconf.</p>
+
+            <ol class="news">
+                <li class="news__item">
+                    <a href="#" class="news__link">Front-end Design</a>
+                </li>
+                <li class="news__item">
+                    <a href="#" class="news__link">JavaScript Modules: A Beginner's guide.</a>
+                </li>
+            </ol>
+        </div>
+    </div>
 
     <script src="http://code.jquery.com/jquery-latest.min.js"></script>
     <script src="app.js"></script>

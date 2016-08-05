@@ -4,4 +4,10 @@ $(document).ready(function() {
         
         $(this).text('Liked').closest('.news__item').addClass('is-liked');
     });
+
+    $('.js-add').on('click', function(e) {
+        e.preventDefault();
+
+        $('.js-form').slideToggle();
+    });
 })
