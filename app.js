@@ -10,4 +10,16 @@ $(document).ready(function() {
 
         $('.js-form').slideToggle();
     });
+
+    $('.js-show-modal').on('click', function(e) {
+        e.preventDefault();
+
+        $('.js-modal, .js-modal-overlay').fadeToggle();
+    });
+
+    $('.js-modal-overlay').on('click', function(e) {
+        e.preventDefault();
+
+        $('.js-modal, .js-modal-overlay').fadeOut();
+    });
 })

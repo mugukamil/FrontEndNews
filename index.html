@@ -24,7 +24,104 @@
                     <input class="form__input" id="add-link" placeholder="Story Link">
                 </form>
             </header>
+
+            <div class="modal-overlay js-modal-overlay"></div>
+            <div class="modal js-modal">
+                <div class="modal__media">
+                    <img src="http://placehold.it/500" alt="">
+                    <h3 class="modal__media__title">Den Denney</h3>
+                </div>
+                <div class="modal__content">
+                    <h3>About Me</h3>
+                    <p>I'm a seriously good copy and paster. Front-end dev for @codeschool, lover of all things web design/dev related and founder of @frontendconf.</p>
+
+                    <ol class="news">
+                        <li class="news__item">
+                            <a href="#" class="news__link">Front-end Design</a>
+                        </li>
+                        <li class="news__item">
+                            <a href="#" class="news__link">JavaScript Modules: A Beginner's guide.</a>
+                        </li>
+                    </ol>
+                </div>
+            </div>
+
             <ol class="news">
+                <li class="news__item">
+                    <a class="news__link" href="#0">FrontEnd Design</a>
+                    <ul class="news__meta meta">
+                        <li class="meta__item">
+                            <em>Posted by:</em>
+                            <a href="#0" class="js-show-modal">Dan Denney</a>
+                        </li>
+                        <li class="meta__item">
+                            <a href="#0">2 Comments</a>
+                        </li>
+                        <li class="meta__item">
+                            <a class="js-like" href="#0">Like this story!</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="news__item">
+                    <a class="news__link" href="#0">HTTP2</a>
+                    <ul class="news__meta meta">
+                        <li class="meta__item">
+                            <em>Posted by:</em>
+                            <a href="#0">Dan Denney</a>
+                        </li>
+                        <li class="meta__item">
+                            <a href="#0">2 Comments</a>
+                        </li>
+                        <li class="meta__item">
+                            <a class="js-like" href="#0">Like this story!</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="news__item">
+                    <a class="news__link" href="#0">Another toppic</a>
+                    <ul class="news__meta meta">
+                        <li class="meta__item">
+                            <em>Posted by:</em>
+                            <a href="#0">Dan Denney</a>
+                        </li>
+                        <li class="meta__item">
+                            <a href="#0">2 Comments</a>
+                        </li>
+                        <li class="meta__item">
+                            <a class="js-like" href="#0">Like this story!</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="news__item">
+                    <a class="news__link" href="#0">New Design</a>
+                    <ul class="news__meta meta">
+                        <li class="meta__item">
+                            <em>Posted by:</em>
+                            <a href="#0">Dan Denney</a>
+                        </li>
+                        <li class="meta__item">
+                            <a href="#0">2 Comments</a>
+                        </li>
+                        <li class="meta__item">
+                            <a class="js-like" href="#0">Like this story!</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="news__item">
+                    <a class="news__link" href="#0">FrontEnd Tool</a>
+                    <ul class="news__meta meta">
+                        <li class="meta__item">
+                            <em>Posted by:</em>
+                            <a href="#0">Dan Denney</a>
+                        </li>
+                        <li class="meta__item">
+                            <a href="#0">2 Comments</a>
+                        </li>
+                        <li class="meta__item">
+                            <a class="js-like" href="#0">Like this story!</a>
+                        </li>
+                    </ul>
+                </li>
                 <li class="news__item">
                     <a class="news__link" href="#0">FrontEnd Design</a>
                     <ul class="news__meta meta">
@@ -100,29 +197,12 @@
                         </li>
                     </ul>
                 </li>
+            
             </ol>    
         </div> <!-- /.container -->
     </main>
 
-    <div class="modal">
-        <div class="modal__media">
-            <img src="" alt="">
-            <h3 class="modal__media__title">Den Denney</h3>
-        </div>
-        <div class="modal__content">
-            <h3>About Me</h3>
-            <p>I'm a seriously good copy and paster. Front-end dev for @codeschool, lover of all things web design/dev related and founder of @frontendconf.</p>
-
-            <ol class="news">
-                <li class="news__item">
-                    <a href="#" class="news__link">Front-end Design</a>
-                </li>
-                <li class="news__item">
-                    <a href="#" class="news__link">JavaScript Modules: A Beginner's guide.</a>
-                </li>
-            </ol>
-        </div>
-    </div>
+    
 
     <script src="http://code.jquery.com/jquery-latest.min.js"></script>
     <script src="app.js"></script>
