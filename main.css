@@ -11,7 +11,9 @@ h6 {
 }
 
 ol {
-
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
 }
 
 li {
@@ -22,15 +24,39 @@ p {
 
 }
 
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
 .site-header {
     background-color:  #3f51b5;
     padding: 20px 0;
     text-align: center;
     color: #fff;
+    margin-bottom: 40px;
 }
 
 .logo {
     font-size: 34px;
     font-weight: bold;
     text-transform: uppercase;
+}
+
+.news {
+
+}
+
+.news__item {
+    border-bottom: 1px solid #b6b6b6;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+.news__link {
+    color: #3f51b5;
+    font-size: 24px;
+}
+
+.content {
 }
